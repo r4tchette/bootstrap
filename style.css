@@ -87,7 +87,7 @@ html, body {
 }
 
 .social a {
-    font-size: 4.5rem;
+    font-size: 4.5em;
     padding: 3rem;
 }
 .fa-facebook {
@@ -113,6 +113,27 @@ html, body {
     color: #d5d5d5;
 }
 
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a {
+    color: #d5d5d5;
+}
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
 
 
 
@@ -121,8 +142,11 @@ html, body {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
-  }
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
 @media (max-width: 768px) {
   
 }
